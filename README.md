@@ -4,6 +4,7 @@ A simple spring cloud example using **Config-Server**, **Eureka** , **Ribbon**& 
 ## How to run on local machine
 - Download the source code
 - Initialize git repository in the config-repo folder and do git commit
+- Update the spring.cloud.config.server.git.uri in the config-server application properties
 - Run the config-server application
 - Run the eureka-server application
 - Run the gateway application
